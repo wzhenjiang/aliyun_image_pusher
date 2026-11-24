@@ -1,1 +1,54 @@
-openmetadata/db:2.0.1
+# convention: section #S#, software/category #C#, image commented ###, other comments #O#
+
+#S# services of datastore
+#C# alist
+#O# 指定架构的写法 --platform=linux/arm64 xhofe/alist
+xhofe/alist
+#C# book
+linuxserver/calibre-web
+#C# ddns 
+jeessy/ddns-go
+#C# registry
+registry
+#C# images used before
+### nginx
+### jc21/nginx-proxy-manager
+### wordpress
+### mysql:5.7
+### linuxserver/mariadb:latest
+
+#S# desktop AI
+#C# ollama webui
+ghcr.io/ollama-webui/ollama-webui:main
+#C# text2text
+ghcr.io/open-webui/open-webui:main
+### ghcr.io/open-webui/open-webui:cuda
+#C# text2image
+yanwk/comfyui-boot:cu124-cn
+### yanwk/comfyui-boot:cu128-megapak
+#C# remove-backgroup
+withoutbg/app:latest
+
+#S# OS images
+#C# ubuntu
+### ubuntu:22.04
+ubuntu:24.04
+#C# debian
+### debian
+#C# centos
+### centos
+
+#S# vpn images
+#C# v2ray
+### v2ray/official
+
+#S# Game
+#C# wow
+### trinitycore/trinitycore:3.3.5
+### trinitycore/trinitycore:master
+### acore/ac-wotlk-authserver:master
+### acore/ac-wotlk-client-data:master
+### acore/ac-wotlk-db-import:master
+### acore/ac-wotlk-worldserver:master
+mysql:8.4
+
